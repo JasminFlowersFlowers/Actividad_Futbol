@@ -1,0 +1,124 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+header {
+    background: #673ab7;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* LOGO LIGA */
+#logo-liga {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    height: 75px;
+}
+
+/* TITULO */
+#nombre-liga {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* JORNADA */
+#jornada-actual {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* CONTENEDOR */
+main {
+    padding: 50px 20px;
+}
+
+#equipos {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+}
+
+/* CARD EQUIPO */
+.equipo {
+    display: inline-block;
+    width: 260px;
+    margin: 25px;
+    padding: 20px 15px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 8px 8px 23px #673ab7;
+    vertical-align: top;
+    transition: transform 0.2s;
+}
+
+.equipo:hover {
+    transform: translateY(-5px);
+}
+
+/* FUNDACIÓN */
+.fundacion {
+    background-color: #673ab7;
+    color: white;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* NOMBRE DEL EQUIPO */
+.equipo-nombre {
+    margin: 20px 0;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+/* IMAGEN DEL EQUIPO */
+.equipo-imagen {
+    height: 120px;
+    margin: 10px 0;
+}
+
+/* ESTADIO */
+.equipo-estadio {
+    border-top: 2px solid #673ab7;
+    border-bottom: 2px solid #673ab7;
+    padding: 8px 0;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #673ab7;
+}
+
+/* COMPETICIONES */
+.competicion-logo {
+    height: 40px;
+    margin: 5px;
+}
+
+/* BOTÓN */
+.equipo-boton {
+    margin-top: 10px;
+    background: #673ab7;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.equipo button:hover {
+    background: #512da8;
+}
